@@ -1,0 +1,11 @@
+-XX:InitialHeapSize=10485750
+-XX:MaxHeapSize=10485750
+-XX:NewSize=5242880
+-XX:MaxNewSize=5242880
+-XX:SurvivorRatio=8
+-XX:+PrintGCDetails
+-Xloggc:gc.log
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:HeapDumpPath=/oomFile/jvm1
+-XX:+UseParNewGC
+-XX:+UseConcMarkSweepGC
